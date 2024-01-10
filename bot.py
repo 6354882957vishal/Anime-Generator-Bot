@@ -5,11 +5,11 @@ import os
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup  
 from myrogram import notJoin , forceMe
 
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "6984439144:AAFHme3crGtW_7e50UOWUBK5CPvXieQIhhM")
 
-API_ID = int(os.environ.get("API_ID", ))
+API_ID = int(os.environ.get("API_ID",22980504 ))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "b85ecdd508ae39f4e64a08e9a4f9c4f9c48d")
 
 app = Client("anime-gen", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
